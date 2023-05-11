@@ -288,7 +288,7 @@ const projects = [
       },
     ],
     image: portfolio1,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Ali7040/MY_Portfolio",
   },
   {
     name: "AI article summarizer",
