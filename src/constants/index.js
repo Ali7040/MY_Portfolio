@@ -1,7 +1,7 @@
 import {
   mobile,
-  // backend,
-  // creator,
+  backend,
+  creator,
   web,
   javascript,
   typescript,
@@ -55,14 +55,14 @@ const services = [
     title: "React Developer",
     icon: mobile,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Open Source contributor",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -78,10 +78,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -90,18 +90,18 @@ const technologies = [
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
   {
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
   {
     name: "Three JS",
     icon: threejs,
