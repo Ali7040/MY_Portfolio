@@ -271,8 +271,7 @@ const projects = [
   {
     name: "My Portfolio",
     description:
-      `Overview.
-         I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Lets work together to bring your ideas to life!.`,
+      `I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React and Three.js. I'm a quick learner and collaborate. Lets work together to bring your ideas to life!.`,
     tags: [
       {
         name: "Threejs",
