@@ -28,6 +28,7 @@ import {
   portfolio1,
   iphone,
   ai_project,
+  openbeta,
 } from "../assets";
 
 
@@ -175,6 +176,19 @@ const experiences = [
     ],
   },
   {
+    title: "OpenSource contribution",
+    company_name: "OpenBeta",
+    icon: openbeta,
+    iconBg: "#E6DEDD",
+    date: "2023 - Present",
+    points: [
+      "I am grateful for the opportunity to contribute to Openbeta's open source community, where I learned invaluable skills and knowledge.",
+      "I contributed to Openbeta, working on ReactJS and backend development.",
+      "Excited to collaborate with this amazing community in future endeavors.",
+      
+    ],
+  },
+  {
     title: "Intrested in AI & Cyber security",
     company_name: "future",
     icon: meta,
@@ -192,10 +206,10 @@ const experiences = [
 const testimonials = [
   // {
   //   testimonial:
-  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //     "I am grateful for the opportunity to contribute to Openbeta's open source community, where I learned invaluable skills and knowledge.",
   //   name: "Sara Lee",
   //   designation: "CFO",
-  //   company: "Acme Co",
+  //   company: "OpenBeta",
   //   image: "https://randomuser.me/api/portraits/women/4.jpg",
   // },
   // {
