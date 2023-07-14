@@ -34,6 +34,7 @@ import portfolio from "./portfolio.png";
 import portfolio1 from "./portfolio1.png";
 import iphone from "./Iphone.png"
 import ai_project from "./AI_React.png"
+import openbeta from "./company/openbeta-logo.svg"
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   portfolio1,
   iphone,
   ai_project,
+  openbeta,
 };
