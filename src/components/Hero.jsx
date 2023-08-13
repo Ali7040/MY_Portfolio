@@ -27,9 +27,7 @@ const Hero = () => {
       </div>
 
 
-      <iframe src='https://my.spline.design/roomrelaxingcopy-326ca5b1ea913d915525cd4e3cf7b54f/' frameborder='0' width='100%' height='100%'></iframe>
-
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
