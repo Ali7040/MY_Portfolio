@@ -16,12 +16,6 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   anime7,
   portfolio,
@@ -29,8 +23,11 @@ import {
   iphone,
   ai_project,
   openbeta,
+  angular,
+  future,
+  snapgram,
+  foody,
 } from "../assets";
-
 
 export const navLinks = [
   {
@@ -53,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -87,10 +84,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "Angular",
+    icon: angular,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -133,7 +130,6 @@ const experiences = [
       "Create and style a webpage with HTML and CSS.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-
     ],
   },
   {
@@ -167,7 +163,7 @@ const experiences = [
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "2023 - Present",
+    date: "2023 -September ",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -180,25 +176,24 @@ const experiences = [
     company_name: "OpenBeta",
     icon: openbeta,
     iconBg: "#E6DEDD",
-    date: "2023 - Present",
+    date: "",
     points: [
       "I am grateful for the opportunity to contribute to Openbeta's open source community, where I learned invaluable skills and knowledge.",
       "I contributed to Openbeta, working on ReactJS and backend development.",
       "Excited to collaborate with this amazing community in future endeavors.",
-      
     ],
   },
   {
-    title: "Intrested in AI & Cyber security",
+    title: "Ai & AR/VR",
     company_name: "future",
-    icon: meta,
+    icon: future,
     iconBg: "#E6DEDD",
-    date: "(2024-2026) - future",
+    date: "Future",
     points: [
-      "Artificial intelligence (AI) and cybersecurity are two rapidly growing fields that intersect in various ways, making them incredibly important and interesting areas of study.",
-      "Certifications: Obtaining certifications in AI and cybersecurity.",
+      "Artificial Intelligence (AI) and Augmented Reality/Virtual Reality (AR/VR) are dynamic and rapidly evolving fields, offering exciting opportunities for exploration and growth.",
+      "Work Goals: Striving to work in AI and AR/VR, leveraging certifications to deepen expertise and stay updated with the latest advancements.",
       "Contributing to open-source projects.",
-      "Developing personal projects that explore the intersection of AI and cybersecurity.",
+      "Building Immersive Experiences: Developing personal AR/VR projects that showcase creative applications of AI, enhancing immersive experiences for users.",
     ],
   },
 ];
@@ -233,8 +228,7 @@ const testimonials = [
 const projects = [
   {
     name: "Anime7",
-    description:
-      `This anime website offers up-to-date information on the latest anime releases, as well as a search feature for users to easily find their favorite anime. Utilizing API's to gather data,
+    description: `This anime website offers up-to-date information on the latest anime releases, as well as a search feature for users to easily find their favorite anime. Utilizing API's to gather data,
        the site is constantly improving and adding new features to enhance the user experience.`,
     tags: [
       {
@@ -255,8 +249,7 @@ const projects = [
   },
   {
     name: "Iphone 14 webpage",
-    description:
-      `Realistic iPhone 14 design.
+    description: `Realistic iPhone 14 design.
       The project uses React components, allowing for modular and reusable code,
       making it easy to extend or customize the web page.
       Three.js library is used to create stunning 3D graphics and animations,
@@ -280,12 +273,12 @@ const projects = [
       },
     ],
     image: iphone,
-    source_code_link: "https://github.com/Ali7040/-iPhone14-WebPage-React-ThreeJS",
+    source_code_link:
+      "https://github.com/Ali7040/-iPhone14-WebPage-React-ThreeJS",
   },
   {
     name: "My Portfolio",
-    description:
-      `I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React and Three.js. I'm a quick learner and collaborate. Lets work together to bring your ideas to life!.`,
+    description: `I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React and Three.js. I'm a quick learner and collaborate. Lets work together to bring your ideas to life!.`,
     tags: [
       {
         name: "Threejs",
@@ -324,10 +317,64 @@ const projects = [
         name: "rapid-API",
         color: "orange-text-gradient",
       },
-
     ],
     image: ai_project,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Ali7040/Article-summarizer_AI",
+  },
+  {
+    name: "snapgram",
+    description:
+      "I created a dynamic social media website using React and TypeScript. With a clean and intuitive user interface, including the integration of infinite scroll.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: snapgram,
+    source_code_link: "https://github.com/Ali7040/Snapgram",
+  },
+
+  {
+    name: "FoOdy",
+    description:
+      "I created a dynamic social media website using React and TypeScript. With a clean and intuitive user interface, including the integration of infinite scroll.",
+    tags: [
+      {
+        name: "Angular",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJs ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "mon-text-gradient",
+      },
+    ],
+    image: foody,
+    source_code_link: "https://github.com/Ali7040/foodApp",
   },
 ];
 

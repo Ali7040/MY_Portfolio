@@ -32,9 +32,13 @@ import tripguide from "./tripguide.png";
 import anime7 from "./anime7.png";
 import portfolio from "./portfolio.png";
 import portfolio1 from "./portfolio1.png";
-import iphone from "./Iphone.png"
-import ai_project from "./AI_React.png"
-import openbeta from "./company/openbeta-logo.svg"
+import iphone from "./Iphone.png";
+import ai_project from "./AI_React.png";
+import openbeta from "./company/openbeta-logo.svg";
+import angular from "./tech/angular.png";
+import future from "./future.png";
+import snapgram from "./snapgram.png";
+import foody from "./foody.png";
 
 export {
   logo,
@@ -71,4 +75,8 @@ export {
   iphone,
   ai_project,
   openbeta,
+  angular,
+  future,
+  snapgram,
+  foody,
 };
