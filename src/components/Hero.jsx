@@ -19,7 +19,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">ALI</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full stack developer
+            Frontend stack developer
             <br className="sm:block hidden" />
             {/* and open source <br className='sm:block hidden' />contributor */}
           </p>

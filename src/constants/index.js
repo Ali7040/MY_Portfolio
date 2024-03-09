@@ -350,7 +350,7 @@ const projects = [
   {
     name: "FoOdy",
     description:
-      "I created a dynamic social media website using React and TypeScript. With a clean and intuitive user interface, including the integration of infinite scroll.",
+      "I developed responsive web application using Angular, TypeScript, and Node.js, seamlessly combining front-end and back-end functionalities. Utilizing SCSS for enhanced styling, the project delivers a modern and user-friendly experience with efficient data processing and a sleek design.",
     tags: [
       {
         name: "Angular",
