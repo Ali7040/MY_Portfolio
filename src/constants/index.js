@@ -27,6 +27,7 @@ import {
   future,
   snapgram,
   foody,
+  sumit,
 } from "../assets";
 
 export const navLinks = [
@@ -375,6 +376,27 @@ const projects = [
     ],
     image: foody,
     source_code_link: "https://github.com/Ali7040/foodApp",
+  },
+  {
+    name: "SumIT",
+    description:
+      "Fed up with disorganized online reading, I created Sumit a web extension crafted with HTML, CSS, and JavaScript. Sumit helps me capture and organize notes, turning my online reading chaos into clarity. This project is a personal testament to solving real challenges with tailored tech solutions.",
+    tags: [
+      {
+        name: "HTML",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sumit,
+    source_code_link: "",
   },
 ];
 

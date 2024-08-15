@@ -39,6 +39,8 @@ import angular from "./tech/angular.png";
 import future from "./future.png";
 import snapgram from "./snapgram.png";
 import foody from "./foody.png";
+import programming from "./programming.svg";
+import sumit from "./sumIt.png";
 
 export {
   logo,
@@ -79,4 +81,6 @@ export {
   future,
   snapgram,
   foody,
+  programming,
+  sumit,
 };
