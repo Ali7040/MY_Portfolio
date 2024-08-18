@@ -28,6 +28,11 @@ import {
   snapgram,
   foody,
   sumit,
+  calender,
+  peopleCounter,
+  imgDetector,
+  carCounter,
+  newPortfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -325,7 +330,7 @@ const projects = [
   {
     name: "snapgram",
     description:
-      "I created a dynamic social media website using React and TypeScript. With a clean and intuitive user interface, including the integration of infinite scroll.",
+      "I created a social media web app using React and TypeScript. This application features interactive user interfaces and dynamic content, providing an engaging and immersive user experience.",
     tags: [
       {
         name: "React",
@@ -351,7 +356,7 @@ const projects = [
   {
     name: "FoOdy",
     description:
-      "I developed responsive web application using Angular, TypeScript, and Node.js, seamlessly combining front-end and back-end functionalities. Utilizing SCSS for enhanced styling, the project delivers a modern and user-friendly experience with efficient data processing and a sleek design.",
+      "I created a food ordering app inspired by Food Panda using Angular. This dynamic and responsive app features a comprehensive product catalog with sorting and filtering options, secure user authentication for login and registration, and advanced styling with SCSS. This project was a great way for me to enhance my skills in building complex, user-friendly applications.",
     tags: [
       {
         name: "Angular",
@@ -397,6 +402,110 @@ const projects = [
     ],
     image: sumit,
     source_code_link: "",
+  },
+  {
+    name: "Calendar App",
+    description:
+      "I built a digital calendar app from the ground up using Angular and Angular Material, without relying on any external libraries. This project allowed me to implement features for setting and managing events on specific dates.",
+    tags: [
+      {
+        name: "HTML",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "TS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Angular Material",
+        color: "mon-text-gradient",
+      },
+    ],
+    image: calender,
+    source_code_link: "",
+  },
+  {
+    name: "Object Detector",
+    description:
+      "I created a real-time object detection system using YOLO and Python, integrated with a webcam for live video analysis.This project allowed me to explore and apply machine learning techniques in real time, enhancing my skills and understanding of object detection.",
+    tags: [
+      {
+        name: "python",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "yolo v8",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: imgDetector,
+    source_code_link: "https://github.com/Ali7040/YoloWebCam",
+  },
+
+  {
+    name: "People Counter",
+    description:
+      "I created a learning project involving a people counter using YOLO v8 and Python. This system utilizes real-time object detection to count individuals accurately.",
+    tags: [
+      {
+        name: "python",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "yolo v8",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: peopleCounter,
+    source_code_link: "https://github.com/Ali7040/People_counter_model",
+  },
+
+  {
+    name: "Car Counter",
+    description:
+      "I built a car counter as a learning project, using machine learning and computer vision techniques with YOLO in Python. This project was a hands-on way for me to deepen my skills in real-time object detection and practical AI applications.",
+    tags: [
+      {
+        name: "python",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "yolo v8",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carCounter,
+    source_code_link: "https://github.com/Ali7040/Car_Counter_model",
+  },
+
+  {
+    name: "Portfolio in Angular",
+    description:
+      "I created a new portfolio project using Angular, TypeScript, and SCSS, incorporating Tailwind CSS for streamlined styling. This project showcases my skills in modern frontend development practices and features a responsive design for an enhanced user experience.",
+    tags: [
+      {
+        name: "Angular",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "mon-text-gradient",
+      },
+    ],
+    image: newPortfolio,
+    source_code_link: "https://github.com/Ali7040/portfolio",
   },
 ];
 

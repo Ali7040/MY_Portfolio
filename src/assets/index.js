@@ -41,6 +41,11 @@ import snapgram from "./snapgram.png";
 import foody from "./foody.png";
 import programming from "./programming.svg";
 import sumit from "./sumIt.png";
+import calender from "./calendar.png";
+import carCounter from "./car-counter.png";
+import imgDetector from "./img-detector.png";
+import peopleCounter from "./people-counter.png";
+import newPortfolio from "./new-portfolio.png";
 
 export {
   logo,
@@ -83,4 +88,9 @@ export {
   foody,
   programming,
   sumit,
+  calender,
+  carCounter,
+  imgDetector,
+  peopleCounter,
+  newPortfolio,
 };
