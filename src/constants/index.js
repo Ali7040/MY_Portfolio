@@ -465,23 +465,23 @@ const projects = [
     source_code_link: "https://github.com/Ali7040/People_counter_model",
   },
 
-  {
-    name: "Car Counter",
-    description:
-      "I built a car counter as a learning project, using machine learning and computer vision techniques with YOLO in Python. This project was a hands-on way for me to deepen my skills in real-time object detection and practical AI applications.",
-    tags: [
-      {
-        name: "python",
-        color: "ang-text-gradient",
-      },
-      {
-        name: "yolo v8",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: carCounter,
-    source_code_link: "https://github.com/Ali7040/Car_Counter_model",
-  },
+  // {
+  //   name: "Car Counter",
+  //   description:
+  //     "I built a car counter as a learning project, using machine learning and computer vision techniques with YOLO in Python. This project was a hands-on way for me to deepen my skills in real-time object detection and practical AI applications.",
+  //   tags: [
+  //     {
+  //       name: "python",
+  //       color: "ang-text-gradient",
+  //     },
+  //     {
+  //       name: "yolo v8",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: carCounter,
+  //   source_code_link: "https://github.com/Ali7040/Car_Counter_model",
+  // },
 
   {
     name: "Portfolio in Angular",
@@ -510,9 +510,9 @@ const projects = [
   },
 
   {
-    name: "Portfolio in Angular",
+    name: "Algorithm Visualizer",
     description:
-      "I recently completed a project inspired by Clement Mihailescu algorithm visualizer in React, but I took on the challenge of building it in Angular. So far, I’ve implemented 4 sorting algorithms and 2 searching algorithms. This tool is designed to help students visually understand how these algorithms work, breaking down each step clearly and interactively.",
+      "Built an algorithm visualizer inspired by Clement Mihailescu's React project, recreated in Angular. It features 4 sorting and 2 searching algorithms, designed to help students visually and interactively understand each step of the algorithms.",
     tags: [
       {
         name: "Angular",
