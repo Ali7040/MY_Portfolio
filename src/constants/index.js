@@ -507,6 +507,32 @@ const projects = [
     image: newPortfolio,
     source_code_link: "https://github.com/Ali7040/portfolio",
   },
+
+  {
+    name: "Portfolio in Angular",
+    description:
+      "I recently completed a project inspired by Clement Mihailescu algorithm visualizer in React, but I took on the challenge of building it in Angular. So far, I’ve implemented 4 sorting algorithms and 2 searching algorithms. This tool is designed to help students visually understand how these algorithms work, breaking down each step clearly and interactively.",
+    tags: [
+      {
+        name: "Angular",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "mon-text-gradient",
+      },
+    ],
+    image: newPortfolio,
+    source_code_link: "https://github.com/Ali7040/algorithm-visualizer",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
