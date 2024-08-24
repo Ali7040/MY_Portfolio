@@ -33,6 +33,7 @@ import {
   imgDetector,
   carCounter,
   newPortfolio,
+  visualizer,
 } from "../assets";
 
 export const navLinks = [
@@ -530,7 +531,7 @@ const projects = [
         color: "mon-text-gradient",
       },
     ],
-    image: newPortfolio,
+    image: visualizer,
     source_code_link: "https://github.com/Ali7040/algorithm-visualizer",
   },
 ];

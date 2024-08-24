@@ -46,6 +46,7 @@ import carCounter from "./car-counter.png";
 import imgDetector from "./img-detector.png";
 import peopleCounter from "./people-counter.png";
 import newPortfolio from "./new-portfolio.png";
+import visualizer from "./visualizer.png";
 
 export {
   logo,
@@ -93,4 +94,5 @@ export {
   imgDetector,
   peopleCounter,
   newPortfolio,
+  visualizer,
 };
