@@ -34,6 +34,7 @@ import {
   carCounter,
   newPortfolio,
   visualizer,
+  ibm
 } from "../assets";
 
 export const navLinks = [
@@ -191,17 +192,19 @@ const experiences = [
     ],
   },
   {
-    title: "Ai & AR/VR",
-    company_name: "future",
-    icon: future,
+    title: "Intro to DL & Neural Networks with Keras",
+    company_name: "IBM",
+    icon: ibm,
     iconBg: "#E6DEDD",
-    date: "Future",
-    points: [
-      "Artificial Intelligence (AI) and Augmented Reality/Virtual Reality (AR/VR) are dynamic and rapidly evolving fields, offering exciting opportunities for exploration and growth.",
-      "Work Goals: Striving to work in AI and AR/VR, leveraging certifications to deepen expertise and stay updated with the latest advancements.",
-      "Contributing to open-source projects.",
-      "Building Immersive Experiences: Developing personal AR/VR projects that showcase creative applications of AI, enhancing immersive experiences for users.",
-    ],
+    date: "",
+    points : [
+      "Understand the fundamentals of deep learning and how it differs from traditional machine learning.",
+      "Learn the structure and working of artificial neural networks, including perceptrons, activation functions, and layers.",
+      "Gain hands-on experience building neural networks using Keras, a high-level deep learning API.",
+      "Explore common network architectures such as feedforward, convolutional, and recurrent neural networks.",
+      "Understand the process of training, validation, and testing of models, including loss functions and optimization algorithms.",
+    ]
+    
   },
 ];
 
@@ -465,23 +468,23 @@ const projects = [
     source_code_link: "https://github.com/Ali7040/People_counter_model",
   },
 
-  // {
-  //   name: "Car Counter",
-  //   description:
-  //     "I built a car counter as a learning project, using machine learning and computer vision techniques with YOLO in Python. This project was a hands-on way for me to deepen my skills in real-time object detection and practical AI applications.",
-  //   tags: [
-  //     {
-  //       name: "python",
-  //       color: "ang-text-gradient",
-  //     },
-  //     {
-  //       name: "yolo v8",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: carCounter,
-  //   source_code_link: "https://github.com/Ali7040/Car_Counter_model",
-  // },
+  {
+    name: "Car Counter",
+    description:
+      "I built a car counter as a learning project, using machine learning and computer vision techniques with YOLO in Python. This project was a hands-on way for me to deepen my skills in real-time object detection and practical AI applications.",
+    tags: [
+      {
+        name: "python",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "yolo v8",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carCounter,
+    source_code_link: "https://github.com/Ali7040/Car_Counter_model",
+  },
 
   {
     name: "Portfolio in Angular",
@@ -534,6 +537,7 @@ const projects = [
     image: visualizer,
     source_code_link: "https://github.com/Ali7040/algorithm-visualizer",
   },
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

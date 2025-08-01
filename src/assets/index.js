@@ -47,6 +47,8 @@ import imgDetector from "./img-detector.png";
 import peopleCounter from "./people-counter.png";
 import newPortfolio from "./new-portfolio.png";
 import visualizer from "./visualizer.png";
+import ibm from "./company/ibm.png"
+import traficDL from "./traficDL.png"
 
 export {
   logo,
@@ -95,4 +97,6 @@ export {
   peopleCounter,
   newPortfolio,
   visualizer,
+  ibm,
+  traficDL
 };
