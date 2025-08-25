@@ -96,16 +96,16 @@ const Works = () => {
       </p>
 
       <div className="mt-10 grid gap-7 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        {Array.isArray(projects) && projects.length > 0 ? (
-          projects.slice(0, 9).map((project, index) => (
-            <ProjectCard key={`project-${index}`} {...project} />
-          ))
-        ) : (
-          <div className="w-full">
-            <p className="text-white">No projects to display.</p>
-          </div>
-        )}
-      </div>
+  {Array.isArray(projects) && projects.length > 0 ? (
+    projects.map((project, index) => (  // ← Remove .slice(0, 9)
+      <ProjectCard key={`project-${index}`} {...project} />
+    ))
+  ) : (
+    <div className="w-full">
+      <p className="text-white">No projects to display.</p>
+    </div>
+  )}
+</div>
     </div>
   );
 };

@@ -15,8 +15,6 @@ import {
   figma,
   meta,
   threejs,
-  anime7,
-  portfolio,
   portfolio1,
   iphone,
   ai_project,
@@ -235,28 +233,100 @@ const testimonials = [
 
 const projects = [
   {
-  name: "AutoClarity",
-  description: `AutoClarity is a car information platform built with Angular, HTML, and CSS. 
-  It allows users to explore vehicle history by entering a VIN number, helping them check for 
-  damages, mileage rollbacks, specs, equipment, title checks, and safety. The app aims to provide 
-  clarity and confidence in car buying and selling decisions.`,
-  tags: [
-    {
-      name: "Angular",
-      color: "red-text-gradient",
-    },
-    {
-      name: "HTML",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "CSS",
-      color: "green-text-gradient",
-    },
-  ],
-  image: autoClarity,
-  source_code_link: "https://github.com/ali7040/AutoClarity",
-},
+    name: "Algorithm Visualizer",
+    description:
+      "Built an algorithm visualizer inspired by Clement Mihailescu's React project, recreated in Angular. It features 4 sorting and 2 searching algorithms, designed to help students visually and interactively understand each step of the algorithms.",
+    tags: [
+      {
+        name: "Angular",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "mon-text-gradient",
+      },
+    ],
+    image: visualizer,
+    source_code_link: "https://github.com/Ali7040/algorithm-visualizer  ",
+  },
+  {
+    name: "AutoClarity",
+    description: `AutoClarity is a car information platform built with Angular, HTML, and CSS. 
+    It allows users to explore vehicle history by entering a VIN number, helping them check for 
+    damages, mileage rollbacks, specs, equipment, title checks, and safety. The app aims to provide 
+    clarity and confidence in car buying and selling decisions.`,
+    tags: [
+      {
+        name: "Angular",
+        color: "red-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: autoClarity,
+    source_code_link: "https://github.com/ali7040/AutoClarity  ",
+  },
+  {
+    name: "Portfolio in Angular",
+    description:
+      "I created a new portfolio project using Angular, TypeScript, and SCSS, incorporating Tailwind CSS for streamlined styling. This project showcases my skills in modern frontend development practices and features a responsive design for an enhanced user experience.",
+    tags: [
+      {
+        name: "Angular",
+        color: "ang-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "mon-text-gradient",
+      },
+    ],
+    image: newPortfolio,
+    source_code_link: "https://github.com/Ali7040/portfolio  ",
+  },
+  {
+    name: "My Portfolio",
+    description: `I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React and Three.js. I'm a quick learner and collaborate. Lets work together to bring your ideas to life!.`,
+    tags: [
+      {
+        name: "Threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio1,
+    source_code_link: "https://github.com/Ali7040/MY_Portfolio  ",
+  },
+  
+  // Other projects
   {
     name: "Iphone 14 webpage",
     description: `Realistic iPhone 14 design.
@@ -284,27 +354,7 @@ const projects = [
     ],
     image: iphone,
     source_code_link:
-      "https://github.com/Ali7040/-iPhone14-WebPage-React-ThreeJS",
-  },
-  {
-    name: "My Portfolio",
-    description: `I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React and Three.js. I'm a quick learner and collaborate. Lets work together to bring your ideas to life!.`,
-    tags: [
-      {
-        name: "Threejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio1,
-    source_code_link: "https://github.com/Ali7040/MY_Portfolio",
+      "https://github.com/Ali7040/-iPhone14-WebPage-React-ThreeJS  ",
   },
   {
     name: "AI article summarizer",
@@ -329,7 +379,7 @@ const projects = [
       },
     ],
     image: ai_project,
-    source_code_link: "https://github.com/Ali7040/Article-summarizer_AI",
+    source_code_link: "https://github.com/Ali7040/Article-summarizer_AI  ",
   },
   {
     name: "snapgram",
@@ -354,9 +404,8 @@ const projects = [
       },
     ],
     image: snapgram,
-    source_code_link: "https://github.com/Ali7040/Snapgram",
+    source_code_link: "https://github.com/Ali7040/Snapgram  ",
   },
-
   {
     name: "FoOdy",
     description:
@@ -384,7 +433,7 @@ const projects = [
       },
     ],
     image: foody,
-    source_code_link: "https://github.com/Ali7040/foodApp",
+    source_code_link: "https://github.com/Ali7040/foodApp  ",
   },
   {
     name: "SumIT",
@@ -430,7 +479,7 @@ const projects = [
       },
     ],
     image: calender,
-    source_code_link: "",
+    source_code_link: "https://calendar-app7.netlify.app/",
   },
   {
     name: "Object Detector",
@@ -447,27 +496,8 @@ const projects = [
       },
     ],
     image: imgDetector,
-    source_code_link: "https://github.com/Ali7040/YoloWebCam",
+    source_code_link: "https://github.com/Ali7040/YoloWebCam  ",
   },
-
-  {
-    name: "People Counter",
-    description:
-      "I created a learning project involving a people counter using YOLO v8 and Python. This system utilizes real-time object detection to count individuals accurately.",
-    tags: [
-      {
-        name: "python",
-        color: "ang-text-gradient",
-      },
-      {
-        name: "yolo v8",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: peopleCounter,
-    source_code_link: "https://github.com/Ali7040/People_counter_model",
-  },
-
   {
     name: "Car Counter",
     description:
@@ -483,61 +513,7 @@ const projects = [
       },
     ],
     image: carCounter,
-    source_code_link: "https://github.com/Ali7040/Car_Counter_model",
+    source_code_link: "https://github.com/Ali7040/Car_Counter_model  ",
   },
-
-  {
-    name: "Portfolio in Angular",
-    description:
-      "I created a new portfolio project using Angular, TypeScript, and SCSS, incorporating Tailwind CSS for streamlined styling. This project showcases my skills in modern frontend development practices and features a responsive design for an enhanced user experience.",
-    tags: [
-      {
-        name: "Angular",
-        color: "ang-text-gradient",
-      },
-      {
-        name: "SCSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "mon-text-gradient",
-      },
-    ],
-    image: newPortfolio,
-    source_code_link: "https://github.com/Ali7040/portfolio",
-  },
-
-  {
-    name: "Algorithm Visualizer",
-    description:
-      "Built an algorithm visualizer inspired by Clement Mihailescu's React project, recreated in Angular. It features 4 sorting and 2 searching algorithms, designed to help students visually and interactively understand each step of the algorithms.",
-    tags: [
-      {
-        name: "Angular",
-        color: "ang-text-gradient",
-      },
-      {
-        name: "SCSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "mon-text-gradient",
-      },
-    ],
-    image: visualizer,
-    source_code_link: "https://github.com/Ali7040/algorithm-visualizer",
-  },
- 
 ];
-
 export { services, technologies, experiences, testimonials, projects };
