@@ -31,7 +31,8 @@ import {
   carCounter,
   newPortfolio,
   visualizer,
-  ibm
+  ibm,
+  autoClarity,
 } from "../assets";
 
 export const navLinks = [
@@ -234,26 +235,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Anime7",
-    description: `This anime website offers up-to-date information on the latest anime releases, as well as a search feature for users to easily find their favorite anime. Utilizing API's to gather data,
-       the site is constantly improving and adding new features to enhance the user experience.`,
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: anime7,
-    source_code_link: "https://ali7040.github.io/Anime7/",
-  },
+  name: "AutoClarity",
+  description: `AutoClarity is a car information platform built with Angular, HTML, and CSS. 
+  It allows users to explore vehicle history by entering a VIN number, helping them check for 
+  damages, mileage rollbacks, specs, equipment, title checks, and safety. The app aims to provide 
+  clarity and confidence in car buying and selling decisions.`,
+  tags: [
+    {
+      name: "Angular",
+      color: "red-text-gradient",
+    },
+    {
+      name: "HTML",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "CSS",
+      color: "green-text-gradient",
+    },
+  ],
+  image: autoClarity,
+  source_code_link: "https://github.com/ali7040/AutoClarity",
+},
   {
     name: "Iphone 14 webpage",
     description: `Realistic iPhone 14 design.

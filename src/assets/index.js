@@ -49,6 +49,7 @@ import newPortfolio from "./new-portfolio.png";
 import visualizer from "./visualizer.png";
 import ibm from "./company/ibm.png"
 import traficDL from "./traficDL.png"
+import autoClarity from "./autoClarity.png"
 
 export {
   logo,
@@ -98,5 +99,6 @@ export {
   newPortfolio,
   visualizer,
   ibm,
-  traficDL
+  traficDL,
+  autoClarity
 };
