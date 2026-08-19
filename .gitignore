@@ -26,4 +26,6 @@ dist-ssr
 
 # vscode
 .vscode
-config.bat
+
+# env files
+.env*
