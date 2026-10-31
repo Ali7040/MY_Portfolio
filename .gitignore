@@ -26,4 +26,8 @@ dist-ssr
 # vscode
 
 # env files
-config.bat
+
+# env files (restored after malware removed this)
+.env
+.env.*
+!.env.example
